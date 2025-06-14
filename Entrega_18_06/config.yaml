@@ -1,0 +1,5 @@
+data_directory: "../data/"
+files:
+  invoices: "202401_NFs.zip"
+  header: "202401_NFs_Cabecalho.csv"
+  items: "202401_NFs_Itens.csv"
