@@ -14,7 +14,7 @@ def create_agent() -> CSVAgent:
         Instância configurada do CSVAgent
     """
     # Cria gerenciador de banco de dados
-    db_manager = DatabaseManager('./../data', 'data.db')
+    db_manager = DatabaseManager('./Agent/data', 'data.db')
 
     # Cria e retorna agente
     agent = CSVAgent(db_manager)
